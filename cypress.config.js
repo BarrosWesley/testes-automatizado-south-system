@@ -44,6 +44,7 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
+  reporter: 'mochawesome',
   e2e: {
     async setupNodeEvents(on, config) {
       const bundler = createBundler({

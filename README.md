@@ -53,6 +53,10 @@ O diretório cypress/feature contém o arquivo realizarpesquisa.feature, onde os
 O diretório cypress/support/step_definitions contém o arquivo steps.js, onde estão definidos os steps personalizados para os cenários de teste.
 O diretório cypress/support/pages estão armazenados os métodos de execução.
 
+## Relatórios
+Os relatórios de testes são gerados automaticamente pelo Cypress e estão localizados no diretório mochawesome-report.
+Os relatórios podem ser acessados após a execução dos testes, clicando no arquivo HTML correspondente.
+
 ## Personalização dos Testes
 Para personalizar os testes, você pode editar o arquivo realizarPesquisa.feature e adicionar ou modificar os cenários de teste conforme necessário.
 Os steps personalizados relacionados aos cenários de teste estão definidos no arquivo steps.js, onde você pode adicionar mais steps ou ajustar os existentes conforme necessário.
