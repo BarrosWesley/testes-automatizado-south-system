@@ -32,15 +32,18 @@ Siga as etapas abaixo para configurar e executar os testes:
    ```bash
    git clone <URL do repositório>
 
-Navegue até o diretório do projeto:
-cd nome-do-projeto
+2. Navegue até o diretório do projeto:
+    
+    ```bash
+    cd nome-do-projeto
 
-Instale as dependências do projeto:
-     ```bash
+3. Instale as dependências do projeto:
+   
+    ```bash
     npm install
 
-Inicie o Cypress:
-     ```bash
+4. Inicie o Cypress:
+    ```bash
     npx cypress open
 
 No Cypress Test Runner, clique no arquivo de teste pesquisa.spec.js para executar os testes.
@@ -53,10 +56,6 @@ O diretório cypress/support/pages estão armazenados os métodos de execução.
 ## Personalização dos Testes
 Para personalizar os testes, você pode editar o arquivo realizarPesquisa.feature e adicionar ou modificar os cenários de teste conforme necessário.
 Os steps personalizados relacionados aos cenários de teste estão definidos no arquivo steps.js, onde você pode adicionar mais steps ou ajustar os existentes conforme necessário.
-
-## Relatórios de Teste
-Os relatórios de testes são gerados automaticamente pelo Cypress e estão localizados no diretório cypress/reports.
-Os relatórios podem ser acessados após a execução dos testes, clicando no arquivo HTML correspondente.
 
 ## Suporte
 Se você encontrar algum problema ou tiver alguma dúvida, sinta-se à vontade para abrir uma issue neste repositório.
