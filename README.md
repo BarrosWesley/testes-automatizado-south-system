@@ -1,5 +1,5 @@
 # testes-automatizado-south-system
-repositório criado para criação dos casos de testes referente a prova técnica da suth
+Repositório criado para os Testes automatizados blogdoagi
 
 # requisitos 
 
@@ -14,7 +14,7 @@ DICAS ÚTEIS:
 
 # Testes de Pesquisa em Cypress
 
-Este repositório contém testes automatizados para a funcionalidade de pesquisa em um site, usando o framework Cypress.
+Este repositório contém testes automatizados para a funcionalidade de pesquisa no blogdoagi, usando o framework Cypress.
 
 ## Pré-requisitos
 
@@ -36,20 +36,22 @@ Navegue até o diretório do projeto:
 cd nome-do-projeto
 
 Instale as dependências do projeto:
-npm install
+     ```bash
+    npm install
 
 Inicie o Cypress:
-npx cypress open
+     ```bash
+    npx cypress open
 
 No Cypress Test Runner, clique no arquivo de teste pesquisa.spec.js para executar os testes.
 
 ## Estrutura do Projeto
-O diretório cypress/integration contém o arquivo pesquisa.spec.js, onde os testes de pesquisa estão definidos.
-O diretório cypress/support contém o arquivo steps.js, onde estão definidos os steps personalizados para os cenários de teste.
-O diretório cypress/fixtures pode ser usado para armazenar dados de teste ou exemplos de respostas da API, se necessário.
+O diretório cypress/feature contém o arquivo realizarpesquisa.feature, onde os testes da consulta estão definidos.
+O diretório cypress/support/step_definitions contém o arquivo steps.js, onde estão definidos os steps personalizados para os cenários de teste.
+O diretório cypress/support/pages estão armazenados os métodos de execução.
 
 ## Personalização dos Testes
-Para personalizar os testes, você pode editar o arquivo pesquisa.spec.js e adicionar ou modificar os cenários de teste conforme necessário.
+Para personalizar os testes, você pode editar o arquivo realizarPesquisa.feature e adicionar ou modificar os cenários de teste conforme necessário.
 Os steps personalizados relacionados aos cenários de teste estão definidos no arquivo steps.js, onde você pode adicionar mais steps ou ajustar os existentes conforme necessário.
 
 ## Relatórios de Teste
